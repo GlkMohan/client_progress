@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Client Progress</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+<style type="text/css">
+	html {
+		zoom: 80%;
+		font-family: arial;
+	}
+</style>
+  
+</head>
+<body>
+	<div class="container-fluid" style="width: 100%;height: 100%;align-items: center;display: flex;justify-content: center;background-image: url('images/plain.png');background-repeat: no-repeat;overflow: hidden;">
+		<div class="row login_div">
+			<div class="forminputs col-xs-12 col-sm-12 col-lg-8 col-md-12">
+				<h1 style="text-align: center;color:white;padding-top: 25px;">Login</h1>
+				<form method="POST">
+				  <div class="form-group" style="">
+				    <label for="username" style="color:#FE018E;font-size: 16px;opacity: 0.8;">Email address</label>
+				    <input type="email" class="form-control inputfield" name="username" id="username" aria-describedby="emailHelp" placeholder="Enter email">
+				    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+				  </div>
+				  <div class="form-group">
+				    <label for="password" style="color:#FE018E;font-size: 16px;opacity: 0.8;">Password</label>
+				    <input type="password" class="form-control inputfield" name="password" id="password" placeholder="Password">
+				  </div>
+				  <button type="submit" class="btn btn-primary btn-md submitbutton">Submit</button>
+				</form>
+				
+			</div>
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

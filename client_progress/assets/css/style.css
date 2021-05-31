@@ -1,0 +1,136 @@
+* {
+	  box-sizing: border-box;
+	}
+	.column {
+	  float: left;
+	  width: 31.7%;
+	  box-shadow: 0px 0px 10px 0px rgba(107, 153, 235,0.4);
+		border-radius:10px;
+	  padding: 100px;
+	  height: 300px;
+	  margin-left: 20px;
+	  margin-top: 20px;
+	  color: white;
+	  transition: 0.2s;
+	}
+	.column:hover{
+		box-shadow: 0px 0px 10px 0px rgba(107, 153, 235,0.7);
+	}
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	header{
+		width: 100%;
+		height: 10%;
+		z-index: 1000;
+		background-color: rgba(5, 15, 33,0.9);
+		color: white;
+		font-size: 30px;
+		position: fixed;
+	}
+/*laptop*/
+@media only screen and (min-width: 992px) {
+	.forminputs{
+		width: 40%;
+		margin-top: -200px;
+		height: 55%;
+		box-shadow: 0px 0px 10px 0px rgba(107, 153, 235,0.4);
+		border-radius:10px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.submitbutton{
+		background: rgba(18, 145, 61,0.8);
+		border: none;
+		/*font-weight: bold;*/
+		color: white;
+		letter-spacing: 1px;
+		font-size: 18px;
+		width: 100%;
+		height: 14%;
+		margin-top: 20px;
+		transition: 0.3s;
+	}
+	.submitbutton:hover{
+		color: white;
+		background: rgba(18, 145, 61, 0.7);
+	}
+	.inputfield{
+		height: 14%;
+		color: #010C31;
+		font-size: 20px;
+		filter: opacity(70%);
+	}
+	.login_div{
+		width: 60%;
+		height:90%;
+		margin: 250px 0px 0px 600px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+	}
+	.project_card{
+		width: 100%;
+		height:auto;
+		margin: 70px 0px 0px 0px;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		/*padding-left: 250px;*/
+	}
+}
+/*mobile*/
+@media only screen and (max-width: 600px) {
+	.forminputs{
+		height: 57%;
+		margin-top: -200px;
+		height: 55%;
+		box-shadow: 0px 0px 10px 0px rgba(107, 153, 235,0.4);
+		border-radius:10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 20px;
+	}
+	.submitbutton{
+		background: rgba(107, 153, 235,0.8);
+		border: none;
+		/*font-weight: bold;*/
+		color: black;
+		letter-spacing: 1px;
+		font-size: 18px;
+		width: 100%;
+		height: 12%;
+		transition: 0.3s;
+	}
+	.submitbutton:hover{
+		color: black;
+		background: rgba(107, 153, 235,0.7);
+	}
+	.inputfield{
+		height: 12%;
+	}
+	.login_div{
+		width: 100%;
+		height:100%;
+		margin-top: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+	}
+	.project_card{
+		width: 100%;
+		height:auto;
+		margin-top: 60px;
+		margin-left: -20px;
+		margin-bottom: 20px;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+	}
+	.column {
+    width: 100%;
+  }
+
+}
